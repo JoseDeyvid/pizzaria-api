@@ -21,7 +21,7 @@ import ListProductsByCategoryController from "./controllers/Product/ListProducts
 
 export const router = Router();
 
-const upload = multer(uploadConfig.upload("tmp"))
+// const upload = multer(uploadConfig.upload("tmp"))
 
 // Users
 router.post("/new-user", new CreateUserController().handle)
@@ -33,7 +33,7 @@ router.post("/new-category", authenticateToken, new CreateCategoryController().h
 router.get("/categories", authenticateToken, new ListCategoriesController().handle)
 
 // Products
-router.post("/new-product", authenticateToken, upload.single('file'), new CreateProductController().handle)
+router.post("/new-product", authenticateToken, new CreateProductController().handle)
 router.get('/category/products', authenticateToken, new ListProductsByCategoryController().handle)
 
 // Orders

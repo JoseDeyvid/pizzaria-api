@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "20",
+    "cors": "2.8.5"
+  },
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
-    "build": "prisma generate && tsc",
+    "build": "npm ci && prisma generate && tsc",
     "start": "node dist/server.js",
     "postinstall": "prisma generate"
   },

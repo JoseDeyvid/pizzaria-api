@@ -26,7 +26,7 @@ CREATE TABLE `products` (
     `name` VARCHAR(191) NOT NULL,
     `price` VARCHAR(191) NOT NULL,
     `description` VARCHAR(191) NOT NULL,
-    `banner` VARCHAR(191) NOT NULL,
+    `banner` VARCHAR(191) NULL,
     `created_at` DATETIME(3) NULL DEFAULT CURRENT_TIMESTAMP(3),
     `updated_at` DATETIME(3) NULL DEFAULT CURRENT_TIMESTAMP(3),
     `category_id` INTEGER NOT NULL,
