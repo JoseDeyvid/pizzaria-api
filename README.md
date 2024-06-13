@@ -8,6 +8,7 @@
 - Mobile do projeto: [https://github.com/JoseDeyvid/pizzaria-mobile](https://github.com/JoseDeyvid/pizzaria-front)
 
 - Esse projeto foi realizado para fins de estudo, e foi 100% inspirado e baseado em um curso da plataforma Udemy e possui as mesmas funcionalidades do que é ensinado no curso, se diferenciando apenas no código.
+
   
 - Link do curso: [https://www.udemy.com/course/dev-fullstack/](https://www.udemy.com/course/dev-fullstack/) - Projeto Completo NodeJS, React, React Native, TypeScript.
   
