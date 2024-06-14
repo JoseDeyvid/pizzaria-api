@@ -5,7 +5,7 @@
   
 - Frontend do projeto: [https://github.com/JoseDeyvid/pizzaria-front](https://github.com/JoseDeyvid/pizzaria-front)
 
-- Mobile do projeto: [https://github.com/JoseDeyvid/pizzaria-mobile](https://github.com/JoseDeyvid/pizzaria-front)
+- Mobile do projeto: [https://github.com/JoseDeyvid/pizzaria-mobile](https://github.com/JoseDeyvid/pizzaria-mobile)
 
 - Esse projeto foi realizado para fins de estudo, e foi 100% inspirado e baseado em um curso da plataforma Udemy e possui as mesmas funcionalidades do que é ensinado no curso, se diferenciando apenas no código.
 
