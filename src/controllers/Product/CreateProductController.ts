@@ -13,7 +13,6 @@ class CreateProductController {
         // const {filename: banner} = req.file
         try {
             const product = await createProductService.execute({name, price, description, category_id: parseInt(category_id)})
-            // console.log(product)
             // const product = await createProductService.execute({name, price, description, banner,  category_id: parseInt(category_id)})
             return res.status(201).send(product)
         } catch (error) {
